@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<!-- 
+	Usage:
+
+	To localize the description, use the following format for the description element.
+	<description>
+	<text xml:lang="en">English App description goes here</text>
+	<text xml:lang="fr">French App description goes here</text>
+	<text xml:lang="ja">Japanese App description goes here</text>
+	</description>
+
+	To localize the name, use the following format for the name element.
+	<name>
+	<text xml:lang="en">English App name goes here</text>
+	<text xml:lang="fr">French App name goes here</text>
+	<text xml:lang="ja">Japanese App name goes here</text>
+	</name>
+-->
+<application xmlns="http://ns.adobe.com/air/application/25.0">
+  <id>SlugBugCounter</id>
+  <versionNumber>1.0.4</versionNumber>
+  <versionLabel>1.0</versionLabel>
+  <filename>SlugBugCounter</filename>
+  <description/>
+  <name>SlugBugCounter</name>
+  <copyright/>
+  <initialWindow>
+    <content>SlugBugCounter.swf</content>
+    <systemChrome>standard</systemChrome>
+    <transparent>false</transparent>
+    <visible>true</visible>
+    <fullScreen>true</fullScreen>
+    <aspectRatio>portrait</aspectRatio>
+    <renderMode>cpu</renderMode>
+    <autoOrients>false</autoOrients></initialWindow>
+  <icon>
+    <image192x192>AppIconsForPublish/icon.png</image192x192>
+  </icon>
+  <customUpdateUI>false</customUpdateUI>
+  <allowBrowserInvocation>false</allowBrowserInvocation>
+  <android>
+    <manifestAdditions><![CDATA[<manifest>
+</manifest>]]></manifestAdditions>
+  </android>
+</application>
